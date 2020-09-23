@@ -1,0 +1,5 @@
+{
+	"cmd": ["$packages\\delphi.bat", "$file"],
+	"file_regex": "(^[a-zA-Z._-]+)\\(([0-9]+)\\) (Error.*)",
+	"selector": "source.pascal",
+}
